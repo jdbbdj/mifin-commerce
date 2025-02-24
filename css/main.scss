@@ -70,3 +70,54 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     }
   }
 }
+
+.hero-section {
+  color: white;
+
+  @include media-breakpoint-down(md) {
+    margin-bottom: 500px;
+  }
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.btn-custom {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: black;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: white;
+  border-color: #090808;
+  color: black;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.product-list-section {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  max-height: 150px;
+  object-fit: cover;
+}
