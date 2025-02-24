@@ -52,7 +52,7 @@ get_header();
 								</a>
 								<div class="card-body">
 									<h3 class="card-title h5"><?php echo $product->get_name(); ?></h3>
-									<p class="card-text text-muted small"><?php echo wc_get_product_category_list($product->get_id()); ?></p>
+									<p class="card-text small product-category"><?php echo wc_get_product_category_list($product->get_id()); ?></p>
 									<p class="card-text"><?php echo $product->get_price_html(); ?></p>
 								</div>
 							</div>
