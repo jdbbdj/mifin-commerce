@@ -68,6 +68,19 @@ get_header();
 		</div>
 	</section>
 	<!--end of main-->
+
+	<!--second banner-->
+	<section class="second-hero-section position-relative overflow-hidden text-white d-flex justify-content-center align-items-center text-center vh-100">
+    <div class="position-absolute top-0 start-0 w-100 h-100">
+        <img src="http://mifin-sample-web.local/wp-content/uploads/2025/02/pexels2-scaled.jpeg" alt="Hero Image" class="w-100 h-100 object-fit-cover">
+    </div>
+    <div class="second-hero-content position-relative z-index-1">
+		<h2>We're here to help you!</h2>
+		<p>
+			Bringing the best of the best of our products on your doorstep.
+		</p>
+    </div>
+	</section>
 	</main>
 	
 

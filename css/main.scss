@@ -109,6 +109,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @include media-breakpoint-down(md) {
+    margin-bottom: 500px;
+  }
 }
 
 .card:hover {
@@ -120,4 +124,48 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .card-img-top {
   max-height: 150px;
   object-fit: cover;
+}
+
+.second-hero-section {
+  color: white;
+}
+
+.second-hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+//footer
+
+.footer {
+  background-color: #090808;
+  color: white;
+  padding: 40px 20px 20px;
+}
+
+.footer-last-banner {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.footer-last-banner a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-last-banner a:hover {
+  text-decoration: underline;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+  transition: opacity 0.3s ease;
+}
+
+.social-icons img:hover {
+  opacity: 0.7;
 }

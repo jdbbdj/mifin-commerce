@@ -11682,6 +11682,11 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 767.98px) {
+  .product-list-section {
+    margin-bottom: 500px;
+  }
+}
 
 .card:hover {
   transform: translateY(-5px);
@@ -11693,4 +11698,46 @@ textarea.form-control-lg {
   max-height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.second-hero-section {
+  color: white;
+}
+
+.second-hero-content h2, .second-hero-content .h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #090808;
+  color: white;
+  padding: 40px 20px 20px;
+}
+
+.footer-last-banner {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.footer-last-banner a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-last-banner a:hover {
+  text-decoration: underline;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+  transition: opacity 0.3s ease;
+}
+
+.social-icons img:hover {
+  opacity: 0.7;
 }/*# sourceMappingURL=main.css.map */
