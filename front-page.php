@@ -16,7 +16,9 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-	123
+	<h1>
+		Front Page
+	</h1>
 		<?php
 		while ( have_posts() ) :
 			the_post();
@@ -34,5 +36,5 @@ get_header();
 	</main><!-- #main -->
 
 <?php
-
+get_sidebar();
 get_footer();
