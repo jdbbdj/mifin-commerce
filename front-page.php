@@ -25,7 +25,7 @@ get_header();
     <!-- Hero Content -->
     <div class="hero-content position-relative z-index-1">
         <h2 class="display-3 fw-bold mb-4">Randomize your fashion!</h2>
-        <a href="#" class="btn btn-custom btn-lg">Get Started</a>
+        <a href="<?php echo site_url('/products'); ?>" class="btn btn-custom btn-lg">Get Started</a>
     </div>
 	</section>
 
