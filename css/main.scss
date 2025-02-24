@@ -143,6 +143,12 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   padding: 40px 20px 20px;
 }
 
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
 .footer-last-banner {
   background-color: #1a1a1a;
   padding: 10px 20px;
